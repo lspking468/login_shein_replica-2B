@@ -47,11 +47,6 @@ main {
     background-color: transparent;
     width: 24px;
     height: 24px;
-    background-image: url("../imgs/back.webp");
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position-x: 0.00002px;
-    background-position-y: center;
     margin: 0.65% 0 0 -2.25%;
 }
 
@@ -61,6 +56,10 @@ main {
     color: #959595;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
+}
+/* estilizando todos os botões */
+.btn {
+    cursor: pointer;
 }
 .paragraph a {
     color: #2D68A8;
@@ -72,6 +71,9 @@ main {
 }
 #secure-data {
     color: #198055 !important;
+}
+#secure-data p {
+    color: inherit !important;
 }
 .icon-lock {
     margin-bottom: 2.5px;
@@ -143,16 +145,16 @@ main {
     font-weight: 600;
     font-size: 14px;
     background-repeat: no-repeat;
-    background-size: 7.5%;
-    background-position-x: 20%;
+    background-size: 10.5%;
+    background-position-x: 16%;
     background-position-y: center;
     text-indent: 30%;
 }
 #anchor-google {
-    background-image: url("../imgs/google-icon.png");
+    background-image: url("../imgs/google-icon.webp");
 }
 #anchor-facebook {
-    background-image: url("../imgs/facebook-icon.png");
+    background-image: url("../imgs/facebook-icon.webp");
 }
 
 /* texto com linha horizontal */
